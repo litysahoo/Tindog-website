@@ -1,0 +1,179 @@
+#title,#cta {
+  background-color: #ff4c68;
+  color: #fff;
+  /* height: 800px; */
+}
+
+body {
+  font-family: 'Montserrat';
+  text-align: center;
+  /* font-weight: bold; */
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Montserrat';
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+/* title */
+
+.container-fluid {
+  padding: 3% 15% 1%;
+}
+
+.row-intro{
+  padding:  1% 15% 90px;
+}
+
+/* navigation Bar */
+
+.navbar {
+  padding: 0 0 2rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.navbar-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat';
+  font-weight: lighter;
+}
+
+.Download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* title-image */
+
+.title-image {
+  width: 20%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 25%;
+  padding-bottom: 5%;
+}
+
+.intro-tagline{
+  text-align:left;
+}
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-box {
+
+  padding: 5%;
+}
+
+.fa-solid-new {
+  width: 40%;
+  display: block;
+  color: salmon;
+  /* box-sizing:inherit ; */
+  /* padding-top: 4rem; */
+  padding-bottom: 1rem;
+  /* margin-left: auto;
+  margin-right: auto; */
+}
+
+.fa-solid:hover {
+  color: #ff4c68;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* testimonials */
+
+#testimonials{
+  padding: 7% 15% 3%;
+
+  background-color: salmon;
+  color: #fff;
+}
+
+.testimonial-image{
+  width: 20%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press{
+  background-color: salmon;
+
+    padding-bottom: 3%;
+}
+
+.press-logo{
+  width: 15%;
+}
+
+/* pricing section */
+#pricing{
+  padding: 100px;
+
+}
+
+.pricing-column{
+  padding: 3% 2%;
+}
+
+@media (max-width:1028px) {
+
+  .intro-tagline{
+    text-align:center;
+  }
+
+
+
+
+.title-image{
+    position: static;
+    width: 40%;
+    transform: rotate(0);
+  }
+}
+
+.action{
+  font-size: 2rem;
+
+  color: #fff;
+}
+
+.Download-button-new{
+    margin: 2% 1% 4% 1%;
+}
+
+#footer{
+
+  padding: 7% 15%;
+}
+
+.social-icons{
+  margin: 20px 10px;
+}
+
+
+
+
+/******************************************/
